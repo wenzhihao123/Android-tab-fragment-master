@@ -2,6 +2,8 @@
 很多项目都会有那个到底部导航菜单，上面是Fragment相互切换，但是每次来项目都需要重新写一堆底部菜单栏布局及代码还有切换逻辑，
 挺麻烦，所以索性写一个通用的这种底部导航栏切换的View,不用写布局、几句代码就可以实现底部菜单+Fragment切换,原理其实很简单就是利用动态创建布局的方式来添加我们的底部布局。
 Activity内Fragment切换的逻辑也大大减少，看一下使用的样子！
+![](http://p1.bqimg.com/567571/429688e3fb7651d6.jpg)
+![](http://p1.bqimg.com/567571/7cbe2ecaca357242.jpg)
 ```
 <com.wzh.tab.tab.BottomTabBar
         android:id="@+id/tb"
